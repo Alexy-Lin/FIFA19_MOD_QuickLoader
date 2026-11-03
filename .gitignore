@@ -1,0 +1,23 @@
+# 内置的 Frosty Mod Manager（第三方 GPLv3 二进制，不随仓库分发）
+/FMM/
+
+# 构建产物
+/source/QuickLoader/bin/
+/source/QuickLoader/obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+
+# 运行时日志与生成物
+error.log
+FMM/crashlog.txt
+*.bak
+*.quickloader.bak
+
+# NuGet 还原缓存
+*.nuget.g.props
+*.nuget.g.targets
+project.assets.json
+project.nuget.cache
