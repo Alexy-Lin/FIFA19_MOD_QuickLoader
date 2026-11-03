@@ -9,7 +9,9 @@
 
 内置 FMM 只负责在后台生成数据，所有操作都在本工具里完成。
 
-> **关于本仓库**：这里只放源码和程序本体（`source\`、`proxy\`、`FIFA19QuickLoader.exe`）。内置的 Frosty Mod Manager（`FMM\`，开源项目 Frosty Toolsuite，GPLv3）和 VC++ 运行库安装包没有随仓库分发——它们体积大、且应当由使用者自己获取。按 [八、从源码编译](#八从源码编译) 编译出程序后，把 FMM 的 `FMM\` 文件夹放到工具根目录即可使用；缺少 `FMM\` 时，所有"内置 FMM"相关功能不可用。下文按完整分享包的用法描述。
+> **下载**：不想自己编译的话，直接到 [Releases](https://github.com/Alexy-Lin/FIFA19_MOD_QuickLoader/releases/latest) 下载 zip（约 38 MB，已含内置 FMM 和 VC++ 运行库），解压后双击 `FIFA19QuickLoader.exe` 即可。
+>
+> **关于本仓库**：仓库里只放源码和程序本体（`source\`、`proxy\`、`FIFA19QuickLoader.exe`）。内置的 Frosty Mod Manager（`FMM\`，开源项目 Frosty Toolsuite，GPLv3）和 VC++ 运行库安装包体积大（约 50 MB），不放进 Git 仓库，而是作为 Release 附件分发；自己编译的话，把 `FMM\` 文件夹放到工具根目录即可使用，缺少 `FMM\` 时所有"内置 FMM"相关功能不可用。下文按完整分享包的用法描述。
 
 ---
 
